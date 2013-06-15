@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+  <five:registerPackage package="."/>
+
+  <plone:static directory="theme" name="kube" type="theme" />
+  <plone:static directory="starter" name="kube-starter" type="theme" />
+  <plone:static directory="demo" name="kube-demo" type="theme" />
+
+</configure>
