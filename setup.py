@@ -23,7 +23,7 @@ setup(name='diazotheme.kube',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'diazo.framework.kube',
+          'diazoframework.kube',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
