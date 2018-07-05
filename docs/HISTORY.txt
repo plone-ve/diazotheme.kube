@@ -4,6 +4,9 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Moved the kube directory from diazotheme/framework/kube/ 
+  to the diazotheme/kube/ directory [macagua]
+
 - Added improvements about README file [macagua]
 
 - Initial release
