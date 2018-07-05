@@ -4,6 +4,8 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Changed URL for the html5shiv library [macagua]
+
 - Fixed IOError: Error reading file /++theme++kube-example/index.html
   [macagua]
 
