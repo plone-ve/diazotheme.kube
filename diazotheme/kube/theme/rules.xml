@@ -6,7 +6,7 @@
        xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <notheme if="not(/html/body/div[@id='visual-portal-wrapper'])"/>
-  <theme href="/++theme++kube-example/index.html"/>
+  <theme href="/++theme++kube/index.html"/>
 
   <!-- Head rules
        ================================================================== -->
