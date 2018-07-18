@@ -162,22 +162,21 @@ Resources
 This package is the parent of all Plone diazo themes and 
 provides rule that are practical to use in other diazo themes.
 
-The resources of this framework can be reached through
 
-- **Kube Demo Theme**
+Kube Demo Theme
+---------------
+
+The resources of this theme can be reached through
+
     ``/++theme++kube-demo``
-- **Kube Starter Theme**
-    ``/++theme++kube-starter``
-- **Kube Theme**
-    ``/++theme++kube``
 
-There are placed at ``diazotheme.kube/diazotheme/kube/`` directory 
-with following resources files:
+There are placed at ``diazotheme.kube/diazotheme/kube/demo`` 
+directory with following resources files:
 
 ::
 
     _ demo
-      Provides the resources from *Kube Demo Theme*.
+      Provides the resources from "Kube Demo Theme".
       _ css
         _ demo.css
       _ img
@@ -186,14 +185,40 @@ with following resources files:
       _ preview.png
       _ README.txt
       _ rules.xml
-    
+
+
+Kube Starter Theme
+------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++kube-starter``
+
+There are placed at ``diazotheme.kube/diazotheme/kube/starter`` 
+directory with following resources files:
+
+::
+
     _ starter
-      Provides the resources from *Kube Starter Theme*.
+      Provides the resources from "Kube Starter Theme".
       _ manifest.cfg
       _ rules.xml
-    
+
+
+Kube Starter Theme
+------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++kube``
+
+There are placed at ``diazotheme.kube/diazotheme/kube/theme`` 
+directory with following resources files:
+
+::
+
     _ theme
-      Provides the resources from *Kube Theme*.
+      Provides the resources from "Kube Theme".
       _ index.html
       _ manifest.cfg
       _ master.css
